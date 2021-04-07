@@ -537,6 +537,7 @@ nav .menu-btn {
   .box {
     width: 100%;
     margin: 20px 0 !important;
+    padding: 0 20px;
     flex-grow: 1;
   }
 
@@ -544,5 +545,15 @@ nav .menu-btn {
     height: 100px;
     width: 100%;
     object-fit: contain;
+  }
+
+  footer p,
+  a {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  footer {
+    padding: 0 10px;
   }
 }
